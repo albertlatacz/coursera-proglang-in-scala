@@ -35,8 +35,13 @@ class HW1Spec extends Specification {
     dateToString((1984, 3, 25)) shouldEqual "March 25, 1984"
   }
 
-  "numberBeforeReachingSum returns number of items from a list when summed are less than specified sum" >> {
+  "numberBeforeReachingSum returns number of items from a list which, when summed are less than specified number" >> {
     numberBeforeReachingSum(7, Range(1,10)) shouldEqual 3
+  }
+
+  "whatMonth returns number of a month for a given day of the year" >> {
+    whatMonth(65) shouldEqual 3
+    whatMonth(365) shouldEqual 12
   }
 
 }
