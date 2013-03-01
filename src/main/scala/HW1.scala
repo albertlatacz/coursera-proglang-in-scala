@@ -9,7 +9,6 @@ object HW1 {
     if (dates.isEmpty) 0
     else (if (dates.head._2 == month) 1 else 0) + numberInMonth(dates.tail, month)
 
-
   def numberInMonths(dates: Seq[Tuple3[Int, Int, Int]], months: Seq[Int]): Int =
     if (months.isEmpty) 0
     else numberInMonth(dates, months.head) + numberInMonths(dates, months.tail)
@@ -29,4 +28,15 @@ object HW1 {
     if (index > strings.size || index <= 0) null
     else if (index == 1) strings.head
     else getNth(strings.tail, index - 1)
+
+  def dateToString(date: Tuple3[Int, Int, Int]): String =
+    "%s %d, %d".format(
+      Seq("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")(date._2 - 1),
+      date._3,
+      date._1)
+
+  def numberBeforeReachingSum(sum: Int, numbers: Seq[Int]): Int =
+    if (sum - numbers.head <= 0) 0
+    else 1 + numberBeforeReachingSum(sum - numbers.head, numbers.tail)
+
 }

@@ -30,4 +30,13 @@ class HW1Spec extends Specification {
     getNth(Seq("this", "should", "return", "null"), -1) shouldEqual null
     getNth(Seq("and", "this", "also", "returns", "null"), 10) shouldEqual null
   }
+
+  "dateToString returns date as string in a format 'January 20, 2013'" >> {
+    dateToString((1984, 3, 25)) shouldEqual "March 25, 1984"
+  }
+
+  "numberBeforeReachingSum returns number of items from a list when summed are less than specified sum" >> {
+    numberBeforeReachingSum(7, Range(1,10)) shouldEqual 3
+  }
+
 }
