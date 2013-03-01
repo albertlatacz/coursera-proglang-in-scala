@@ -21,4 +21,7 @@ object HW1 {
       else datesInMonth(dates.tail, month)
     }
 
+  def datesInMonths(dates: Seq[Tuple3[Int, Int, Int]], months: Seq[Int]): Seq[Tuple3[Int, Int, Int]] =
+    if (months.isEmpty) Seq.empty
+    else datesInMonth(dates, months.head) ++ datesInMonths(dates, months.tail)
 }
