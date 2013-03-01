@@ -16,4 +16,8 @@ class HW1Spec extends Specification {
   "numberInMonths returns number of dates from the list with a given month from a list" >> {
     numberInMonths(Seq((2011, 12, 10), (2011, 11, 10), (2011, 12, 5), (2011, 10, 7)), Seq(12, 10)) shouldEqual 3
   }
+
+  "datesInMonth returns dates from the list with a given month" >> {
+    datesInMonth(Seq((2011, 12, 10), (2011, 11, 10), (2011, 12, 5)), 12) shouldEqual Seq((2011, 12, 10), (2011, 12, 5))
+  }
 }
