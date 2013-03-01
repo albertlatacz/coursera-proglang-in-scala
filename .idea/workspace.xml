@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaPlayground.iws" />
@@ -32,7 +30,7 @@
     <file path="$PROJECT_DIR$/target/streams/$global/ivy-configuration/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="/fragment.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382432833" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362158993359" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362159034960" ignored="false" />
     <file path="/fragment.js2" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361274170737" ignored="false" />
     <file path="/HW2Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290030028" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/scala_compiler.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
@@ -152,7 +150,7 @@
       <file leaf-file-name="HW1.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="78" selection-start="980" selection-end="980" vertical-scroll-proportion="0.58495146">
+            <state line="23" column="25" selection-start="927" selection-end="927" vertical-scroll-proportion="0.58495146">
               <folding />
             </state>
           </provider>
@@ -672,8 +670,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -705,11 +703,11 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="added solution for hw1 problem 5" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
     <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
     <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
@@ -718,6 +716,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="added solution for hw1 problem 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -812,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="78" selection-start="980" selection-end="980" vertical-scroll-proportion="0.58495146">
+        <state line="23" column="25" selection-start="927" selection-end="927" vertical-scroll-proportion="0.58495146">
           <folding />
         </state>
       </provider>
