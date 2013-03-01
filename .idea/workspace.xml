@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="">
+    <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362175603925" ignored="false" />
+    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177353351" ignored="false" />
     <file path="/HW1Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382772747" ignored="false" />
-    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362163199067" ignored="false" />
+    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177417707" ignored="false" />
     <file path="/Main.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290341902" ignored="false" />
     <file path="/package.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265755717" ignored="false" />
     <file path="$PROJECT_DIR$/src/Main$.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265818339" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/target/streams/$global/ivy-configuration/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="/fragment.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382432833" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362159064501" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177573940" ignored="false" />
     <file path="/fragment.js2" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361274170737" ignored="false" />
     <file path="/HW2Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290030028" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/scala_compiler.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
@@ -45,7 +45,7 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
     <file path="/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362136485710" ignored="false" />
     <file path="/HW1Test.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362124990132" ignored="false" />
-    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362175775959" ignored="false" />
+    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362176522150" ignored="false" />
     <file path="/.gitignore" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362129365705" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/resources/uk/co/o2/gos/rest/gos-rest.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133512202" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/rest/SavedOffersResource.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
@@ -89,7 +89,7 @@
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/Cacheable.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/CachedRepository.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/mongo/TestMongoConnect.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362175798931" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177573627" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <file leaf-file-name="HW1.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.0">
+            <state line="58" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,8 +179,10 @@
       <file leaf-file-name="HW1Spec.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="18" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.58495146">
-              <folding />
+            <state line="58" column="0" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.815534">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -839,15 +841,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.0">
+        <state line="58" column="0" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.58495146">
-          <folding />
+        <state line="58" column="0" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.815534">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

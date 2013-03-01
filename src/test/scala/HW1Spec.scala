@@ -3,9 +3,9 @@ import HW1._
 
 class HW1Spec extends Specification {
   "isOlder returns correct value" >> {
-    isOlder((2011, 12, 10), (2011, 12, 5)) shouldEqual true
-    isOlder((2011, 12, 10), (2012, 11, 5)) shouldEqual false
-    isOlder((2011, 12, 5), (2011, 12, 10)) shouldEqual false
+    isOlder((2011, 12, 10), (2011, 12, 5)) shouldEqual false
+    isOlder((2011, 12, 10), (2012, 11, 5)) shouldEqual true
+    isOlder((2011, 12, 5), (2011, 12, 10)) shouldEqual true
     isOlder((2011, 12, 10), (2011, 12, 10)) shouldEqual false
   }
 
@@ -46,9 +46,15 @@ class HW1Spec extends Specification {
   }
 
   "monthRange returns list of months for a given days range" >> {
+    monthRange(100, 0) shouldEqual Seq.empty
     monthRange(10, 12) shouldEqual Seq(1, 1, 1)
     monthRange(58, 62) shouldEqual Seq(2, 2, 3, 3, 3)
-    monthRange(100, 0) shouldEqual Seq.empty
+  }
+
+  "oldest returns the oldest date" >> {
+    oldest(Seq.empty) shouldEqual None
+    oldest(Seq((1984, 3, 25))) shouldEqual Some((1984, 3, 25))
+    oldest(Seq((1984, 3, 25), (1983, 9, 11), (2011, 12, 10), (2011, 11, 10))) shouldEqual Some((1983, 9, 11))
   }
 
 }

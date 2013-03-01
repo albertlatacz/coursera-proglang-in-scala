@@ -2,7 +2,7 @@
 object HW1 {
   def isOlder(firstDate: Tuple3[Int, Int, Int], secondDate: Tuple3[Int, Int, Int]): Boolean = {
     def dateToInt(date: Tuple3[Int, Int, Int]): Int = date._1 * 10000 + date._2 * 100 + date._3
-    dateToInt(firstDate) > dateToInt(secondDate)
+    dateToInt(firstDate) < dateToInt(secondDate)
   }
 
   def numberInMonth(dates: Seq[Tuple3[Int, Int, Int]], month: Int): Int =
@@ -45,4 +45,16 @@ object HW1 {
   def monthRange(fromDay: Int, toDay: Int): Seq[Int] =
     if (fromDay > toDay) Seq.empty
     else whatMonth(fromDay) +: monthRange(fromDay + 1, toDay)
+
+  def oldest(dates: Seq[Tuple3[Int, Int, Int]]): Option[Tuple3[Int, Int, Int]] = {
+    def findOldest(currentOldest: Tuple3[Int, Int, Int], remainingDates: Seq[Tuple3[Int, Int, Int]]): Tuple3[Int, Int, Int] = {
+      if (remainingDates.isEmpty) currentOldest
+      else if (isOlder(remainingDates.head, currentOldest)) findOldest(remainingDates.head, remainingDates.tail)
+      else findOldest(currentOldest, remainingDates.tail)
+    }
+
+    if (dates.isEmpty) None
+    else Some(findOldest(dates.head, dates.tail))
+  }
+
 }
