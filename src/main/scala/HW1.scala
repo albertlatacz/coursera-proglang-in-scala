@@ -24,4 +24,9 @@ object HW1 {
   def datesInMonths(dates: Seq[Tuple3[Int, Int, Int]], months: Seq[Int]): Seq[Tuple3[Int, Int, Int]] =
     if (months.isEmpty) Seq.empty
     else datesInMonth(dates, months.head) ++ datesInMonths(dates, months.tail)
+
+  def getNth(strings: Seq[String], index: Int): String =
+    if (index > strings.size || index <= 0) null
+    else if (index == 1) strings.head
+    else getNth(strings.tail, index - 1)
 }
