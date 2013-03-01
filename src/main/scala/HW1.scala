@@ -39,6 +39,10 @@ object HW1 {
     if (sum - numbers.head <= 0) 0
     else 1 + numberBeforeReachingSum(sum - numbers.head, numbers.tail)
 
-  def whatMonth(dayOfYear: Int) : Int =
+  def whatMonth(dayOfYear: Int): Int =
     1 + numberBeforeReachingSum(dayOfYear, Seq(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31))
+
+  def monthRange(fromDay: Int, toDay: Int): Seq[Int] =
+    if (fromDay > toDay) Seq.empty
+    else whatMonth(fromDay) +: monthRange(fromDay + 1, toDay)
 }

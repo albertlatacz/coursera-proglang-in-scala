@@ -36,12 +36,19 @@ class HW1Spec extends Specification {
   }
 
   "numberBeforeReachingSum returns number of items from a list which, when summed are less than specified number" >> {
-    numberBeforeReachingSum(7, Range(1,10)) shouldEqual 3
+    numberBeforeReachingSum(7, Range(1, 10)) shouldEqual 3
   }
 
   "whatMonth returns number of a month for a given day of the year" >> {
+    whatMonth(12) shouldEqual 1
     whatMonth(65) shouldEqual 3
     whatMonth(365) shouldEqual 12
+  }
+
+  "monthRange returns list of months for a given days range" >> {
+    monthRange(10, 12) shouldEqual Seq(1, 1, 1)
+    monthRange(58, 62) shouldEqual Seq(2, 2, 3, 3, 3)
+    monthRange(100, 0) shouldEqual Seq.empty
   }
 
 }
