@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362130234811" ignored="false" />
+    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362132897325" ignored="false" />
     <file path="/HW1Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382772747" ignored="false" />
-    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362087355437" ignored="false" />
+    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137344610" ignored="false" />
     <file path="/Main.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290341902" ignored="false" />
     <file path="/package.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265755717" ignored="false" />
     <file path="$PROJECT_DIR$/src/Main$.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265818339" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/target/streams/$global/ivy-configuration/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="/fragment.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382432833" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362130347393" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362158331464" ignored="false" />
     <file path="/fragment.js2" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361274170737" ignored="false" />
     <file path="/HW2Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290030028" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/scala_compiler.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
@@ -41,13 +41,54 @@
     <file path="$PROJECT_DIR$/my-web-project/.idea/misc.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/modules.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/projectCodeStyle.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
-    <file path="$PROJECT_DIR$/../PMGlobal/Global/thirdPartyProviderIntegrationTest/src/test/scala/uk/co/o2/gos/tppit/vouchacha/VouchachaProviderIntegrationSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362087205815" ignored="false" />
-    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362088390136" ignored="false" />
-    <file path="/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362088044734" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/thirdPartyProviderIntegrationTest/src/test/scala/uk/co/o2/gos/tppit/vouchacha/VouchachaProviderIntegrationSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137253583" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362136485710" ignored="false" />
     <file path="/HW1Test.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362124990132" ignored="false" />
     <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362129595362" ignored="false" />
     <file path="/.gitignore" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362129365705" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362130501998" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/resources/uk/co/o2/gos/rest/gos-rest.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133512202" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/rest/SavedOffersResource.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/ComponentRegistry.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/releases/uk/release_4.1/conf/gos/externalised-rsa.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133815408" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/releases/uk/release_4.1/conf/offerservice/externalised-rsa.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133815408" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/regionalServiceAdaptors/src/main/resources/uk/co/o2/rsa/loadingbay/rsa-loadingbay.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133773262" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/regionalServiceAdaptors/src/main/scala/uk/co/o2/rsa/ComponentRegistry.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133773262" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/regionalServiceAdaptors/src/main/scala/uk/co/o2/rsa/loadingbay/LoadingBayLoggingService.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133823659" ignored="false" />
+    <file path="/ComponentRegistry.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362136568649" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/rest/SearchResource.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/service/AlternativeLocationServiceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/src/main/scala/uk/co/tef/domain/repository/SavedOfferRepository.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/src/test/scala/uk/co/tef/domain/repository/SavedOfferRepositorySpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/service/OfferFilterServiceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/service/OfferServiceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/service/OnlineOfferFilterServiceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362138314600" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/AlternativeLocationService.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/OfferFilterService.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/service/ThankYouServiceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalIngest/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/customerInfoService/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/src/test/scala/uk/co/tef/domain/builder/builders.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalLoadingbay/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891652" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/thirdPartyProvider/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/thirdPartyProviderIntegrationTest/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalLbclient/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/globalProfileService/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$PROJECT_DIR$/../PMGlobal/Global/regionalServiceAdaptors/pom.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalarest/3.0.0-SNAPSHOT/scalarest-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalarest/rest/jsonResponse.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/tef/global/vivo-soa/2.0.0-SNAPSHOT/vivo-soa-2.0.0-SNAPSHOT.jar!/uk/co/o2/soa/provider/SOAPManagementProvider.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/mongo/MongoConnection.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/mongo/SalatRepository.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/Registry.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalarest/3.0.0-SNAPSHOT/scalarest-3.0.0-SNAPSHOT.jar!/log4j.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/utils/FixedTimeSource.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/TimeSource.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/Cacheable.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/CachedRepository.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/mongo/TestMongoConnect.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +103,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -97,6 +137,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -110,7 +151,16 @@
       <file leaf-file-name="HW1.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="700" selection-end="700" vertical-scroll-proportion="0.76885647">
+            <state line="17" column="32" selection-start="760" selection-end="760" vertical-scroll-proportion="0.7839806">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqLike.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="522" column="6" selection-start="17792" selection-end="17792" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +169,7 @@
       <file leaf-file-name="HW1Spec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="90" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+            <state line="16" column="89" selection-start="732" selection-end="735" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,7 +261,20 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaPlayground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,20 +353,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaPlayground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,8 +656,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16477273" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,16 +726,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/immutable/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="3" selection-start="12680" selection-end="12680" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/matcher/TraversableMatchers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="8" selection-start="6151" selection-end="6151" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/mock/mockito/FunctionArguments.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="274" selection-start="11250" selection-end="11250" vertical-scroll-proportion="0.0" />
@@ -703,51 +743,37 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="2385" selection-end="2385" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="7" selection-start="2385" selection-end="2385" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/mutable/FragmentsBuilder.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="8" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="63" column="8" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/generic/GenericCompanion.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="6" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="43" column="6" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/matcher/StringMatchers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="6" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="69" column="6" selection-start="2999" selection-end="2999" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="0" selection-start="6365" selection-end="6365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="179" column="0" selection-start="6365" selection-end="6365" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -766,14 +792,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="90" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+        <state line="16" column="89" selection-start="732" selection-end="735" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="133" selection-start="6379" selection-end="6379" vertical-scroll-proportion="0.12962963" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="522" column="6" selection-start="17792" selection-end="17792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="700" selection-end="700" vertical-scroll-proportion="0.76885647">
+        <state line="17" column="32" selection-start="760" selection-end="760" vertical-scroll-proportion="0.7839806">
           <folding />
         </state>
       </provider>

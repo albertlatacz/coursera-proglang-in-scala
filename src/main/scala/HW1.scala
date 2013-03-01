@@ -1,4 +1,3 @@
-import scala.collection
 
 object HW1 {
   def isOlder(firstDate: Tuple3[Int, Int, Int], secondDate: Tuple3[Int, Int, Int]): Boolean = {
@@ -17,6 +16,9 @@ object HW1 {
 
   def datesInMonth(dates: Seq[Tuple3[Int, Int, Int]], month: Int): Seq[Tuple3[Int, Int, Int]] =
     if (dates.isEmpty) Seq.empty
-    else (if (dates.head._2 == month) Seq(dates.head) else Seq.empty) ++ datesInMonth(dates.tail, month)
+    else {
+      if (dates.head._2 == month) dates.head +: datesInMonth(dates.tail, month)
+      else datesInMonth(dates.tail, month)
+    }
 
 }
