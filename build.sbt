@@ -1,4 +1,4 @@
-name := ""
+name := "Coursera's Programming Languages course homework in Scala"
 
 version := "1.0"
 
