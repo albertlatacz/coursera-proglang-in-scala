@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177353351" ignored="false" />
+    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362385107973" ignored="false" />
     <file path="/HW1Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382772747" ignored="false" />
     <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362177417707" ignored="false" />
     <file path="/Main.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290341902" ignored="false" />
@@ -45,7 +45,7 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
     <file path="/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362136485710" ignored="false" />
     <file path="/HW1Test.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362124990132" ignored="false" />
-    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362176522150" ignored="false" />
+    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362385279962" ignored="false" />
     <file path="/.gitignore" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362129365705" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/resources/uk/co/o2/gos/rest/gos-rest.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133512202" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/rest/SavedOffersResource.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
@@ -89,6 +89,7 @@
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/Cacheable.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/CachedRepository.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/mongo/TestMongoConnect.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362386561330" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +152,7 @@
       <file leaf-file-name="HW1.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="0" selection-start="6068" selection-end="6068" vertical-scroll-proportion="0.7619048">
+            <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.81280786">
               <folding />
             </state>
           </provider>
@@ -169,7 +170,7 @@
       <file leaf-file-name="SeqLike.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="522" column="6" selection-start="17792" selection-end="17792" vertical-scroll-proportion="0.0">
+            <state line="388" column="6" selection-start="12740" selection-end="12740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,7 +179,7 @@
       <file leaf-file-name="HW1Spec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="37" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="67" column="0" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -261,8 +262,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="width" value="1920" />
+    <option name="height" value="1174" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -668,7 +669,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -685,8 +686,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16477273" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10844017" sideWeight="0.79696393" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20303605" sideWeight="0.9951923" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -810,13 +811,6 @@
         <state line="159" column="133" selection-start="6379" selection-end="6379" vertical-scroll-proportion="0.12962963" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="522" column="6" selection-start="17792" selection-end="17792" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/Predef.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="150" column="6" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.0">
@@ -838,9 +832,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="388" column="6" selection-start="12740" selection-end="12740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="67" column="0" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -849,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="6068" selection-end="6068" vertical-scroll-proportion="0.7619048">
+        <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.81280786">
           <folding />
         </state>
       </provider>

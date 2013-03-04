@@ -129,4 +129,37 @@ object HW1 {
     else Some(findOldest(dates.head, dates.tail))
   }
 
+
+  /**
+  12. Challenge Problem: Write functions number_in_months_challenge and dates_in_months_challenge that
+  are like your solutions to problems 3 and 5 except having a month in the second argument multiple times
+  has no more effect than having it once. (Hint: Remove duplicates, then use previous work.)
+    */
+
+
+  // Challenge problems
+  private def unique(seq: Seq[Int]): Seq[Int] = {
+    def findUnique(acc: Seq[Int], rem: Seq[Int]): Seq[Int] =
+      if (rem.isEmpty) acc
+      else findUnique(if (acc.contains(rem.head)) acc else acc :+ rem.head, rem.tail)
+
+    findUnique(Seq.empty, seq)
+  }
+
+  /**
+  12a. Challenge Problem: Write function number_in_months_challenge like your solution to problem 3 having a month
+  in the second argument multiple times has no more effect than having it once.
+    */
+  def numberInMonthsChallenge(dates: Seq[Tuple3[Int, Int, Int]], months: Seq[Int]): Int =
+    numberInMonths(dates, unique(months))
+
+
+  /**
+  12b. Challenge Problem: Write function dates_in_months_challenge like your solution to problem 5 except having
+  a month in the second argument multiple times has no more effect than having it once.
+    */
+  def datesInMonthsChallenge(dates: Seq[Tuple3[Int, Int, Int]], months: Seq[Int]): Seq[Tuple3[Int, Int, Int]] =
+    datesInMonths(dates, unique(months))
+
+
 }

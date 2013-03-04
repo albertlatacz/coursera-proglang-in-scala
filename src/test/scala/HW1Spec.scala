@@ -2,6 +2,7 @@ import org.specs2.mutable.Specification
 import HW1._
 
 class HW1Spec extends Specification {
+
   "isOlder returns correct value" >> {
     isOlder((2011, 12, 10), (2011, 12, 5)) shouldEqual false
     isOlder((2011, 12, 10), (2012, 11, 5)) shouldEqual true
@@ -55,6 +56,14 @@ class HW1Spec extends Specification {
     oldest(Seq.empty) shouldEqual None
     oldest(Seq((1984, 3, 25))) shouldEqual Some((1984, 3, 25))
     oldest(Seq((1984, 3, 25), (1983, 9, 11), (2011, 12, 10), (2011, 11, 10))) shouldEqual Some((1983, 9, 11))
+  }
+
+  "numberInMonthsChallenge returns number of dates from the list with a given months from a list making sure there are no duplicates" >> {
+    numberInMonthsChallenge(Seq((2011, 12, 10), (2011, 11, 10), (2011, 12, 5), (2011, 10, 7)), Seq(12, 10, 10, 12)) shouldEqual 3
+  }
+
+  "datesInMonths returns dates from the list with a given months from a list making sure there are no duplicates" >> {
+    datesInMonthsChallenge(Seq((2011, 12, 10), (2011, 11, 10), (2011, 10, 7)), Seq(12, 10, 10, 12)) shouldEqual Seq((2011, 12, 10), (2011, 10, 7))
   }
 
 }
