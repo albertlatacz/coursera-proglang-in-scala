@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
     </list>
     <ignored path="ScalaPlayground.iws" />
@@ -45,7 +44,7 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/service/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137806073" ignored="false" />
     <file path="/SearchedOffer.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362136485710" ignored="false" />
     <file path="/HW1Test.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362124990132" ignored="false" />
-    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362385279962" ignored="false" />
+    <file path="/HW1Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362386713896" ignored="false" />
     <file path="/.gitignore" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362129365705" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/resources/uk/co/o2/gos/rest/gos-rest.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362133512202" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/main/scala/uk/co/o2/gos/rest/SavedOffersResource.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137891653" ignored="false" />
@@ -89,7 +88,7 @@
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/Cacheable.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT.jar!/uk/co/o2/scalacore/utils/CachedRepository.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137926861" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/mongo/TestMongoConnect.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362386561330" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362386715676" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,10 +148,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HW1.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HW1.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.81280786">
+            <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,10 +175,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW1Spec.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HW1Spec.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
+            <state line="64" column="127" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.7426108">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -255,8 +254,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/HW1Test.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW1.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
       </list>
     </option>
   </component>
@@ -839,19 +838,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="7379" selection-end="7379" vertical-scroll-proportion="0.81280786">
-          <folding />
+        <state line="64" column="127" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.7426108">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
