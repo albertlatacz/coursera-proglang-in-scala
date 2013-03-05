@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/CourseraProglangInScala.iml" afterPath="$PROJECT_DIR$/.idea_modules/CourseraProglangInScala.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW1.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW1Spec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362472658724" ignored="false" />
+    <file path="/HW1.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362487822309" ignored="false" />
     <file path="/HW1Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382772747" ignored="false" />
-    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362473251532" ignored="false" />
+    <file path="/a.dummy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362487908494" ignored="false" />
     <file path="/Main.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290341902" ignored="false" />
     <file path="/package.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265755717" ignored="false" />
     <file path="$PROJECT_DIR$/src/Main$.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361265818339" ignored="false" />
@@ -33,7 +31,7 @@
     <file path="$PROJECT_DIR$/target/streams/$global/ivy-configuration/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="/fragment.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361382432833" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362418604753" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362487791761" ignored="false" />
     <file path="/fragment.js2" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361274170737" ignored="false" />
     <file path="/HW2Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290030028" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/scala_compiler.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
@@ -106,6 +104,22 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/scala/HW1.scala" line="168" class="HW1$" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -141,22 +155,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/scala/HW1.scala" line="175" class="HW1$" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -170,7 +168,7 @@
       <file leaf-file-name="HW1.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="10" selection-start="7385" selection-end="7385" vertical-scroll-proportion="0.47030303">
+            <state line="158" column="183" selection-start="7175" selection-end="7175" vertical-scroll-proportion="0.64484847">
               <folding />
             </state>
           </provider>
@@ -207,9 +205,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="67" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -341,7 +337,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -520,6 +515,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,12 +534,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -602,6 +598,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -615,14 +619,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -687,15 +683,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaScriptRunConfiguration" factoryName="Scala Script">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="consoleargs" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -709,6 +696,15 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaScriptRunConfiguration" factoryName="Scala Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="consoleargs" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <method />
     </configuration>
     <configuration default="false" name="HW1Spec" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -773,7 +769,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -883,9 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -952,15 +946,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="3000" selection-end="3000" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="10" selection-start="7385" selection-end="7385" vertical-scroll-proportion="0.47030303">
+        <state line="158" column="183" selection-start="7175" selection-end="7175" vertical-scroll-proportion="0.64484847">
           <folding />
         </state>
       </provider>

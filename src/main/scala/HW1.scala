@@ -130,16 +130,9 @@ object HW1 {
   }
 
 
-  /**
-  12. Challenge Problem: Write functions number_in_months_challenge and dates_in_months_challenge that
-  are like your solutions to problems 3 and 5 except having a month in the second argument multiple times
-  has no more effect than having it once. (Hint: Remove duplicates, then use previous work.)
-    */
-
-
   // Challenge problems
-  private def unique(seq: Seq[Int]): Seq[Int] = {
-    def findUnique(acc: Seq[Int], rem: Seq[Int]): Seq[Int] =
+  private def unique[A](seq: Seq[A]): Seq[A] = {
+    def findUnique(acc: Seq[A], rem: Seq[A]): Seq[A] =
       if (rem.isEmpty) acc
       else findUnique(if (acc.contains(rem.head)) acc else acc :+ rem.head, rem.tail)
 
@@ -169,13 +162,13 @@ object HW1 {
   divisible by 400 or divisible by 4 but not divisible by 100. (Do not worry about days possibly lost in the conversion
   to the Gregorian calendar in the Late 1500s.)
     */
-  def reasonableDate(date: Tuple3[Int, Int, Int]): Boolean = {
-    def isLeapYear(dateToCheck: Tuple3[Int, Int, Int]): Boolean = (dateToCheck._1 % 400 == 0) || (dateToCheck._1 % 100 != 0 && dateToCheck._1 % 4 == 0)
-    def validYear(dateToCheck: Tuple3[Int, Int, Int]) : Boolean = dateToCheck._1 > 0
-    def validMonth(dateToCheck: Tuple3[Int, Int, Int]) : Boolean = Range(1, 13).contains(dateToCheck._2)
-    def validDay(dateToCheck: Tuple3[Int, Int, Int]): Boolean = Range(1, Seq(31, if (isLeapYear(dateToCheck)) 29 else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)(dateToCheck._2 - 1) + 1).contains(dateToCheck._3)
+  def reasonableDate(dateToCheck: Tuple3[Int, Int, Int]): Boolean = {
+    def isLeapYear(date: Tuple3[Int, Int, Int]): Boolean = (date._1 % 400 == 0) || (date._1 % 100 != 0 && date._1 % 4 == 0)
+    def validYear(date: Tuple3[Int, Int, Int]) : Boolean = date._1 > 0
+    def validMonth(date: Tuple3[Int, Int, Int]) : Boolean = Range(1, 13).contains(date._2)
+    def validDay(date: Tuple3[Int, Int, Int]): Boolean = Range(1, Seq(31, if (isLeapYear(date)) 29 else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)(date._2 - 1) + 1).contains(date._3)
 
-    validYear(date) && validMonth(date) && validDay(date)
+    validYear(dateToCheck) && validMonth(dateToCheck) && validDay(dateToCheck)
   }
 
 }
