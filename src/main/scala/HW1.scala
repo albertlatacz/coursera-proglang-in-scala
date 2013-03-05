@@ -162,4 +162,20 @@ object HW1 {
     datesInMonths(dates, unique(months))
 
 
+  /**
+  13. Challenge Problem: Write a function reasonable_date that takes a date and determines if it describes a real
+  date in the common era. A “real date” has a positive year (year 0 did not exist), a month between 1 and 12, and
+  a day appropriate for the month. Solutions should properly handle leap years. Leap years are years that are either
+  divisible by 400 or divisible by 4 but not divisible by 100. (Do not worry about days possibly lost in the conversion
+  to the Gregorian calendar in the Late 1500s.)
+    */
+  def reasonableDate(date: Tuple3[Int, Int, Int]): Boolean = {
+    def isLeapYear(dateToCheck: Tuple3[Int, Int, Int]): Boolean = (dateToCheck._1 % 400 == 0) || (dateToCheck._1 % 100 != 0 && dateToCheck._1 % 4 == 0)
+    def validYear(dateToCheck: Tuple3[Int, Int, Int]) : Boolean = dateToCheck._1 > 0
+    def validMonth(dateToCheck: Tuple3[Int, Int, Int]) : Boolean = Range(1, 13).contains(dateToCheck._2)
+    def validDay(dateToCheck: Tuple3[Int, Int, Int]): Boolean = Range(1, Seq(31, if (isLeapYear(dateToCheck)) 29 else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)(dateToCheck._2 - 1) + 1).contains(dateToCheck._3)
+
+    validYear(date) && validMonth(date) && validDay(date)
+  }
+
 }
