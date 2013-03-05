@@ -66,13 +66,13 @@ class HW1Spec extends Specification {
     datesInMonthsChallenge(Seq((2011, 12, 10), (2011, 11, 10), (2011, 10, 7)), Seq(12, 10, 10, 12)) shouldEqual Seq((2011, 12, 10), (2011, 10, 7))
   }
 
-  "reasonableDate returns correct result for " should {
-    "leap years" >> {
+  "reasonableDate" should {
+    "handle leap years" >> {
       reasonableDate((1983, 2, 29)) shouldEqual false
       reasonableDate((1984, 2, 29)) shouldEqual true
     }
 
-    "month within the range" >> {
+    "handle month within the range" >> {
       reasonableDate((1983, 0, 25)) shouldEqual false
       reasonableDate((1983, 13, 25)) shouldEqual false
       reasonableDate((1983, 3, 25)) shouldEqual true
@@ -80,7 +80,7 @@ class HW1Spec extends Specification {
 
     Range(0, 12) foreach {
       month =>
-        ("days within range for month " + (month + 1)) >> {
+        ("handle days within range for month " + (month + 1)) >> {
           val daysOfMonth = Seq(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
           reasonableDate((1983, month + 1, 0)) shouldEqual false
           reasonableDate((1983, month + 1, daysOfMonth(month) + 1)) shouldEqual false
