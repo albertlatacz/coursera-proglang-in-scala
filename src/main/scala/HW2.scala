@@ -10,8 +10,14 @@ object HW2 {
 
   def sameString(s1: String, s2: String) = s1 == s2
 
-
-
+  def allExceptOption(str: String, list: Seq[String]) : Option[Seq[String]] = {
+    def allExcept(acc:Seq[String], curr: Seq[String]): Seq[String] = curr match {
+      case Nil => acc
+      case head::tail => allExcept(if (sameString(str, head)) acc else acc :+ head, tail)
+    }
+    val filtered = allExcept(Seq.empty, list)
+    if (filtered.size != list.size) Some(filtered) else None
+  }
 
 
 
