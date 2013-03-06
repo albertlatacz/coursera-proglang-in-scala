@@ -11,7 +11,7 @@ object HW2 {
   def sameString(s1: String, s2: String) = s1 == s2
 
   def allExceptOption(str: String, list: Seq[String]): Option[Seq[String]] = list match {
-    case Nil => Option[Seq[String]](null)
+    case Nil => None
     case head :: tail if sameString(str, head) =>  Some(tail)
     case head :: tail => allExceptOption(str, tail).map(head +: _)
   }

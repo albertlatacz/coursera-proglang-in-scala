@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW2.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW2.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,8 +91,7 @@
     <file path="$MAVEN_REPOSITORY$/uk/co/o2/scalacore/3.0.0-SNAPSHOT/scalacore-3.0.0-SNAPSHOT-tests.jar!/uk/co/o2/scalacore/mongo/TestMongoConnect.class" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362137949257" ignored="false" />
     <file path="/Dummy.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362472627547" ignored="false" />
     <file path="/HW2Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362577980251" ignored="false" />
-    <file path="/HW2.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362592574716" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362592659978" ignored="false" />
+    <file path="/HW2.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362592770507" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/src/main/scala/uk/co/tef/domain/repository/OfferLocation.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362584999899" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/domain/src/test/scala/uk/co/tef/domain/repository/populate.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362584999899" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Global/globalOfferService/src/test/scala/uk/co/o2/gos/rest/SearchResourceSpec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362584999899" ignored="false" />
@@ -167,7 +167,7 @@
       <file leaf-file-name="HW2.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="75" selection-start="406" selection-end="406" vertical-scroll-proportion="0.28217822">
+            <state line="16" column="3" selection-start="574" selection-end="574" vertical-scroll-proportion="0.37623763">
               <folding />
             </state>
           </provider>
@@ -961,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="75" selection-start="406" selection-end="406" vertical-scroll-proportion="0.28217822">
+        <state line="16" column="3" selection-start="574" selection-end="574" vertical-scroll-proportion="0.37623763">
           <folding />
         </state>
       </provider>
