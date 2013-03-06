@@ -10,10 +10,10 @@ object HW2 {
 
   def sameString(s1: String, s2: String) = s1 == s2
 
-  def allExceptOption(str: String, list: Seq[String]): Option[Seq[String]] = list match {
+  def allExceptOption(excluded: String, list: Seq[String]): Option[Seq[String]] = list match {
     case Nil => None
-    case head :: tail if sameString(str, head) =>  Some(tail)
-    case head :: tail => allExceptOption(str, tail).map(head +: _)
+    case head :: tail if(excluded == head) => Some(tail)
+    case head :: tail => allExceptOption(excluded, tail).map(head +: _)
   }
 
 
