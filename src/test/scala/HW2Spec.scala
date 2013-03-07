@@ -14,4 +14,9 @@ class HW2Spec extends Specification {
     getSubstitutions1(Seq(Seq("Fred", "Fredrick"), Seq("Jeff", "Jeffrey"), Seq("Geoff", "Jeff", "Jeffrey")), "Jeff") shouldEqual Seq("Jeffrey", "Geoff", "Jeffrey")
   }
 
+  "getSubstitutions2 returns substitutions for a given list of strings using tail recursive local helper" >> {
+    getSubstitutions2(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), "Fred") shouldEqual Seq("Fredrick","Freddie","F")
+    getSubstitutions2(Seq(Seq("Fred", "Fredrick"), Seq("Jeff", "Jeffrey"), Seq("Geoff", "Jeff", "Jeffrey")), "Jeff") shouldEqual Seq("Jeffrey", "Geoff", "Jeffrey")
+  }
+
 }

@@ -48,6 +48,21 @@ object HW2 {
     }
   }
 
+
+  /**
+  1c. Write a function get_substitutions2, which is like get_substitutions1 except it uses a tail-recursive local
+  helper function.
+    */
+  def getSubstitutions2(list: Seq[Seq[String]], substitute: String): Seq[String] = {
+    def getSubstitutionsTailRec(remaining: Seq[Seq[String]],  acc: Seq[String]): Seq[String] = remaining match {
+      case Nil => acc
+      case head::tail => getSubstitutionsTailRec(tail, acc ++ allExceptOption(substitute, head).getOrElse(Seq.empty))
+    }
+
+    getSubstitutionsTailRec(list, Seq.empty)
+  }
+
+
   // For problem 2
   abstract sealed class Suit
   case object Clubs extends Suit
