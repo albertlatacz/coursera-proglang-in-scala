@@ -10,13 +10,24 @@ class HW2Spec extends Specification {
   }
 
   "getSubstitutions1 returns substitutions for a given list of strings" >> {
-    getSubstitutions1(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), "Fred") shouldEqual Seq("Fredrick","Freddie","F")
+    getSubstitutions1(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), "Fred") shouldEqual Seq("Fredrick", "Freddie", "F")
     getSubstitutions1(Seq(Seq("Fred", "Fredrick"), Seq("Jeff", "Jeffrey"), Seq("Geoff", "Jeff", "Jeffrey")), "Jeff") shouldEqual Seq("Jeffrey", "Geoff", "Jeffrey")
   }
 
   "getSubstitutions2 returns substitutions for a given list of strings using tail recursive local helper" >> {
-    getSubstitutions2(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), "Fred") shouldEqual Seq("Fredrick","Freddie","F")
+    getSubstitutions2(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), "Fred") shouldEqual Seq("Fredrick", "Freddie", "F")
     getSubstitutions2(Seq(Seq("Fred", "Fredrick"), Seq("Jeff", "Jeffrey"), Seq("Geoff", "Jeff", "Jeffrey")), "Jeff") shouldEqual Seq("Jeffrey", "Geoff", "Jeffrey")
+  }
+
+  "similarNames returns all substitutions of the first name of given person" >> {
+    similarNames(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), new Person(first = "Fred", last = "Smith", middle = "W")) shouldEqual
+      Seq(new Person(first = "Fred", last = "Smith", middle = "W"),
+        new Person(first = "Fredrick", last = "Smith", middle = "W"),
+        new Person(first = "Freddie", last = "Smith", middle = "W"),
+        new Person(first = "F", last = "Smith", middle = "W"))
+
+    similarNames(Seq(Seq("Fred", "Fredrick"), Seq("Elizabeth", "Betty"), Seq("Freddie", "Fred", "F")), new Person(first = "John", last = "West", middle = "S")) shouldEqual
+      Seq(new Person(first = "John", last = "West", middle = "S"))
   }
 
 }

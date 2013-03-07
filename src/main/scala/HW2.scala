@@ -62,6 +62,31 @@ object HW2 {
     getSubstitutionsTailRec(list, Seq.empty)
   }
 
+  /**
+  Write a function similar_names, which takes a string list list of substitutions (as in parts (b) and (c)) and a full
+  name of type {first:string,middle:string,last:string} and returns a list of full names (type {first:string,middle:string,last:string} list).
+  The result is all the full names you can produce by substituting for the first name (and only the first name) using
+  substitutions and parts (b) or (c). The answer should begin with the original name (then have 0 or more other names).
+  Example: similar_names([ ["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"] ], {first="Fred", middle="W", last="Smith"})
+    answer: [{first="Fred", last="Smith", middle="W"},
+      {first="Fredrick", last="Smith", middle="W"},
+      {first="Freddie", last="Smith", middle="W"},
+      {first="F", last="Smith", middle="W"}]
+  Hint: Use a local helper function. Sample solution is around 10 lines.
+
+    Since Scala has no equivalent type for records this problem has been solved with helper type 'Person'.
+    */
+  case class Person(first: String, last: String, middle: String)
+  def similarNames(list: Seq[Seq[String]], person: Person): Seq[Person] = {
+    def similarNamesTailRec(names: Seq[String],  acc: Seq[Person]): Seq[Person] = names match {
+      case Nil => acc
+      case head::tail => similarNamesTailRec(tail, acc :+ person.copy(first = head))
+    }
+
+    person +: similarNamesTailRec(getSubstitutions2(list, person.first), Seq.empty)
+  }
+
+
 
   // For problem 2
   abstract sealed class Suit
