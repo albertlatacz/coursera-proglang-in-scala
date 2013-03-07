@@ -4,10 +4,11 @@ object HW2 {
   // Provided originally from hw2provided.sml
 
   // For problem 1
+
   /**
   If you use this function to compare two strings (returns true if the same string), then you avoid several of
-  the functions in problem 1 having polymorphic types that may be confusing */
-
+  the functions in problem 1 having polymorphic types that may be confusing
+    */
   def sameString(s1: String, s2: String) = s1 == s2
 
   /**
@@ -17,10 +18,35 @@ object HW2 {
   around 8 lines.*/
   def allExceptOption(excluded: String, list: Seq[String]): Option[Seq[String]] = list match {
     case Nil => None
-    case head :: tail if (excluded == head) => Some(tail)
-    case head :: tail => allExceptOption(excluded, tail).map(head +: _)
+    case head :: tail =>
+      if (sameString(excluded, head)) Some(tail)
+      else allExceptOption(excluded, tail).map(head +: _)
   }
 
+
+  /**
+  1b. Write a function get_substitutions1, which takes a string list list (a list of list of strings, the substitutions)
+  and a string s and returns a string list. The result has all the strings that are in some list in substitutions that
+  also has s, but s itself should not be in the result. Example:
+    get_substitutions1([ ["Fred", "Fredrick"], ["Elizabeth", "Betty"], ["Freddie", "Fred", "F"] ]
+                       "Fred")
+    answer: ["Fredrick","Freddie","F"]
+
+  Assume each list in substitutions has no repeats. The result will have repeats if s and another string are both in
+  more than one list in substitutions. Example:
+    get_substitutions1([ ["Fred", "Fredrick"], ["Jeff", "Jeffrey"], ["Geoff", "Jeff", " Jeffrey"] ],
+                       "Jeff")
+    answer: ["Jeffrey","Geoff","Jeffrey"]
+
+  Use part (a) and ML’s list-append (@) but no other helper functions. Sample solution is around 6 lines.
+    */
+  def getSubstitutions1(list: Seq[Seq[String]], substitute: String): Seq[String] = list match {
+    case Nil => Seq.empty
+    case head::tail => allExceptOption(substitute, head) match {
+      case None => getSubstitutions1(tail, substitute)
+      case Some(result) => result ++ getSubstitutions1(tail, substitute)
+    }
+  }
 
   // For problem 2
   abstract sealed class Suit
