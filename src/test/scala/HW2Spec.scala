@@ -46,8 +46,13 @@ class HW2Spec extends Specification {
   }
 
   "removeCard removes card from the list or throws given exception if card was not found" >> {
-      removeCard(Seq((Diamonds, King), (Spades, Ace), (Spades, Ace), (Hearts, Queen)), (Spades, Ace), null) shouldEqual Seq((Diamonds, King), (Spades, Ace), (Hearts, Queen))
-      removeCard(Seq((Spades, Ace), (Diamonds, King)), (Hearts, Jack), new IllegalArgumentException) should throwAn(new IllegalArgumentException)
-    }
+    removeCard(Seq((Diamonds, King), (Spades, Ace), (Spades, Ace), (Hearts, Queen)), (Spades, Ace), null) shouldEqual Seq((Diamonds, King), (Spades, Ace), (Hearts, Queen))
+    removeCard(Seq((Spades, Ace), (Diamonds, King)), (Hearts, Jack), new IllegalArgumentException) should throwAn(new IllegalArgumentException)
+  }
+
+  "allSameColor returns true for list of cards with the same color" >> {
+    allSameColor(Seq((Spades, Ace), (Diamonds, King), (Spades, Queen))) shouldEqual false
+    allSameColor(Seq((Spades, Ace), (Spades, King), (Spades, Queen))) shouldEqual true
+  }
 
 }

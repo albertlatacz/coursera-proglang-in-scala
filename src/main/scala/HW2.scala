@@ -66,7 +66,6 @@ object HW2 extends HW2Provided {
     Since Scala has no equivalent type for records this problem has been solved with helper type 'Person'.
     */
   case class Person(first: String, last: String, middle: String)
-
   def similarNames(list: Seq[Seq[String]], person: Person): Seq[Person] = {
     def similarNamesTailRec(names: Seq[String], acc: Seq[Person]): Seq[Person] = names match {
       case Nil => acc
@@ -105,6 +104,17 @@ object HW2 extends HW2Provided {
   def removeCard(cards: Seq[Card], card: Card, exception: Exception): Seq[Card] = cards match {
     case Nil => throw exception
     case head :: tail => if (head == card) tail else head +: removeCard(tail, card, exception)
+  }
+
+
+  /**
+  2d. Write a function all_same_color, which takes a list of cards and returns true if all the cards in the list are
+  the same color. Hint: An elegant solution is very similar to one of the functions using nested pattern-matching in
+  the lectures.
+    */
+  def allSameColor(cards: Seq[Card]): Boolean = cards match {
+    case head::Nil => true
+    case head::neck::tail => if (cardColor(head) != cardColor(neck)) false else allSameColor(neck :: tail)
   }
 
 }
