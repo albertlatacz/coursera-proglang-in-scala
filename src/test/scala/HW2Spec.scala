@@ -45,4 +45,9 @@ class HW2Spec extends Specification {
     cardValue((Spades, Num(3))) shouldEqual 3
   }
 
+  "removeCard removes card from the list or throws given exception if card was not found" >> {
+      removeCard(Seq((Diamonds, King), (Spades, Ace), (Spades, Ace), (Hearts, Queen)), (Spades, Ace), null) shouldEqual Seq((Diamonds, King), (Spades, Ace), (Hearts, Queen))
+      removeCard(Seq((Spades, Ace), (Diamonds, King)), (Hearts, Jack), new IllegalArgumentException) should throwAn(new IllegalArgumentException)
+    }
+
 }

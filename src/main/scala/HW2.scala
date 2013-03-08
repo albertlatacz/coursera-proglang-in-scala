@@ -96,6 +96,17 @@ object HW2 extends HW2Provided {
     case _ => 10
   }
 
+
+  /**
+  2c. Write a function remove_card, which takes a list of cards cs, a card c, and an exception e. It returns
+  a list that has all the elements of cs except c. If c is in the list more than once, remove only the first one.
+  If c is not in the list, raise the exception e. You can compare cards with =.
+    */
+  def removeCard(cards: Seq[Card], card: Card, exception: Exception): Seq[Card] = cards match {
+    case Nil => throw exception
+    case head :: tail => if (head == card) tail else head +: removeCard(tail, card, exception)
+  }
+
 }
 
 /**
