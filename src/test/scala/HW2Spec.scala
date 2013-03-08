@@ -30,4 +30,19 @@ class HW2Spec extends Specification {
       Seq(new Person(first = "John", last = "West", middle = "S"))
   }
 
+  "cardColor returns color (Black, Red) of a given card" >> {
+    cardColor((Hearts, Ace)) shouldEqual Red
+    cardColor((Spades, Ace)) shouldEqual Black
+    cardColor((Diamonds, Ace)) shouldEqual Red
+    cardColor((Clubs, Ace)) shouldEqual Black
+  }
+
+  "cardValue returns value of Num, 11 for Ace and 10 otherwise" >> {
+    cardValue((Spades, Ace)) shouldEqual 11
+    cardValue((Spades, King)) shouldEqual 10
+    cardValue((Spades, Queen)) shouldEqual 10
+    cardValue((Spades, Jack)) shouldEqual 10
+    cardValue((Spades, Num(3))) shouldEqual 3
+  }
+
 }

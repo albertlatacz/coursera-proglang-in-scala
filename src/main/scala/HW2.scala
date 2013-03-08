@@ -1,21 +1,10 @@
 
-object HW2 {
-
-  // Provided originally from hw2provided.sml
-
-  // For problem 1
-
-  /**
-  If you use this function to compare two strings (returns true if the same string), then you avoid several of
-  the functions in problem 1 having polymorphic types that may be confusing
-    */
-  def sameString(s1: String, s2: String) = s1 == s2
-
+object HW2 extends HW2Provided {
   /**
   1a. Write a function all_except_option, which takes a string and a string list. Return NONE if the string is not in the
   list, else return SOME lst where lst is identical to the argument list except the string is not in it. You may assume
   the string is in the list at most once. Use same_string, provided to you, to compare strings. Sample solution is
-  around 8 lines.*/
+  around 8 lines. */
   def allExceptOption(excluded: String, list: Seq[String]): Option[Seq[String]] = list match {
     case Nil => None
     case head :: tail =>
@@ -42,7 +31,7 @@ object HW2 {
     */
   def getSubstitutions1(list: Seq[Seq[String]], substitute: String): Seq[String] = list match {
     case Nil => Seq.empty
-    case head::tail => allExceptOption(substitute, head) match {
+    case head :: tail => allExceptOption(substitute, head) match {
       case None => getSubstitutions1(tail, substitute)
       case Some(result) => result ++ getSubstitutions1(tail, substitute)
     }
@@ -54,9 +43,9 @@ object HW2 {
   helper function.
     */
   def getSubstitutions2(list: Seq[Seq[String]], substitute: String): Seq[String] = {
-    def getSubstitutionsTailRec(remaining: Seq[Seq[String]],  acc: Seq[String]): Seq[String] = remaining match {
+    def getSubstitutionsTailRec(remaining: Seq[Seq[String]], acc: Seq[String]): Seq[String] = remaining match {
       case Nil => acc
-      case head::tail => getSubstitutionsTailRec(tail, acc ++ allExceptOption(substitute, head).getOrElse(Seq.empty))
+      case head :: tail => getSubstitutionsTailRec(tail, acc ++ allExceptOption(substitute, head).getOrElse(Seq.empty))
     }
 
     getSubstitutionsTailRec(list, Seq.empty)
@@ -77,15 +66,48 @@ object HW2 {
     Since Scala has no equivalent type for records this problem has been solved with helper type 'Person'.
     */
   case class Person(first: String, last: String, middle: String)
+
   def similarNames(list: Seq[Seq[String]], person: Person): Seq[Person] = {
-    def similarNamesTailRec(names: Seq[String],  acc: Seq[Person]): Seq[Person] = names match {
+    def similarNamesTailRec(names: Seq[String], acc: Seq[Person]): Seq[Person] = names match {
       case Nil => acc
-      case head::tail => similarNamesTailRec(tail, acc :+ person.copy(first = head))
+      case head :: tail => similarNamesTailRec(tail, acc :+ person.copy(first = head))
     }
 
     person +: similarNamesTailRec(getSubstitutions2(list, person.first), Seq.empty)
   }
 
+
+  /**
+  2a. Write a function card_color, which takes a card and returns its color (spades and clubs are black,
+  diamonds and hearts are red). Note: One case-expression is enough.
+    */
+  def cardColor(card: Card): Color = card match {
+    case (Hearts | Diamonds, _) => Red
+    case _ => Black
+  }
+
+  /**
+  2b. Write a function card_value, which takes a card and returns its value (numbered cards have their
+  number as the value, aces are 11, everything else is 10). Note: One case-expression is enough.
+    */
+  def cardValue(card: Card): Int = card match {
+    case (_, Num(value)) => value
+    case (_, Ace) => 11
+    case _ => 10
+  }
+
+}
+
+/**
+Provided originally from hw2provided.sml
+  */
+class HW2Provided {
+  // For problem 1
+  /**
+  If you use this function to compare two strings (returns true if the same string), then you avoid several of
+  the functions in problem 1 having polymorphic types that may be confusing
+    */
+  def sameString(s1: String, s2: String) = s1 == s2
 
 
   // For problem 2
