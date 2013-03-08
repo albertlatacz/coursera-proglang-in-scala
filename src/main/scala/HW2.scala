@@ -68,6 +68,7 @@ object HW2 extends HW2Provided {
     Since Scala has no equivalent type for records this problem has been solved with helper type 'Person'.
     */
   case class Person(first: String, last: String, middle: String)
+
   def similarNames(list: Seq[Seq[String]], person: Person): Seq[Person] = {
     def similarNamesTailRec(names: Seq[String], acc: Seq[Person]): Seq[Person] = names match {
       case Nil => acc
@@ -76,6 +77,24 @@ object HW2 extends HW2Provided {
 
     person +: similarNamesTailRec(getSubstitutions2(list, person.first), Seq.empty)
   }
+
+
+  /*
+  2. This problem involves a solitaire card game invented just for this question. You will write a program that tracks
+  the progress of a game; writing a game player is a challenge problem. You can do parts (a)–(e) before understanding
+  the game if you wish.
+
+  A game is played with a card-list and a goal. The player has a list of held-cards, initially empty. The player makes a
+  move by either drawing, which means removing the first card in the card-list from the card-list and adding it to the
+  held-cards, or discarding, which means choosing one of the held-cards to remove. The game ends either when the player
+  chooses to make no more moves or when the sum of the values of the held-cards is greater than the goal. The objective
+  is to end the game with a low score (0 is best).
+
+  Scoring works as follows: Let sum be the sum of the values of the held-cards. If sum is greater than goal,
+  the preliminary score is three times sum − goal, else the preliminary score is goal − sum. The score is the preliminary
+  score unless all the held-cards are the same color, in which case the score is the preliminary score
+  divided by 2 (and rounded down as usual with integer division; use ML’s div operator).
+  */
 
 
   /**
@@ -116,8 +135,8 @@ object HW2 extends HW2Provided {
   the lectures.
     */
   def allSameColor(cards: Seq[Card]): Boolean = cards match {
-    case head::Nil => true
-    case head::neck::tail => if (cardColor(head) != cardColor(neck)) false else allSameColor(neck :: tail)
+    case head :: Nil => true
+    case head :: neck :: tail => if (cardColor(head) != cardColor(neck)) false else allSameColor(neck :: tail)
   }
 
 
@@ -128,11 +147,28 @@ object HW2 extends HW2Provided {
   def sumCards(cards: Seq[Card]): Int = {
     def sumCardsTailRec(remaining: Seq[Card], acc: Int): Int = remaining match {
       case Nil => acc
-      case head::tail => sumCardsTailRec(tail, acc + cardValue(head))
+      case head :: tail => sumCardsTailRec(tail, acc + cardValue(head))
     }
 
     sumCardsTailRec(cards, 0)
   }
+
+  /**
+  2f. Write a function score, which takes a card list (the held-cards) and an int (the goal)
+  and computes the score as described.
+
+  Scoring works as follows:
+  Let sum be the sum of the values of the held-cards. If sum is greater than goal, the preliminary score is
+  three times sum − goal, else the preliminary score is goal − sum. The score is the preliminary score unless all the
+  held-cards are the same color, in which case the score is the preliminary score divided by 2 (and rounded down
+  as usual with integer division; use ML’s div operator).
+    */
+  def score(cards: Seq[Card], goal: Int): Int = {
+    val sum = sumCards(cards)
+    val preliminaryScore = if (sum > goal) sum * 3 - goal else goal - sum
+    if (allSameColor(cards)) preliminaryScore / 2 else preliminaryScore
+  }
+
 
 }
 

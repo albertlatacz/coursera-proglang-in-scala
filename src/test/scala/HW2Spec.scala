@@ -59,4 +59,11 @@ class HW2Spec extends Specification {
     sumCards(Seq((Spades, Ace), (Diamonds, King), (Hearts, Num(3)), (Diamonds, Num(6)))) shouldEqual 30
   }
 
+  "score returns correct score for cards held" >> {
+    score(Seq((Spades, Ace), (Hearts, Num(4)), (Diamonds, King)), 20) shouldEqual 55
+    score(Seq((Spades, Ace), (Hearts, Num(4))), 20) shouldEqual 5
+    score(Seq((Hearts, Ace), (Hearts, Num(4)), (Hearts, King)), 20) shouldEqual 27
+    score(Seq((Hearts, Ace), (Hearts, Num(4))), 20) shouldEqual 2
+  }
+
 }
