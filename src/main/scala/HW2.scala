@@ -1,5 +1,6 @@
 
 object HW2 extends HW2Provided {
+
   /**
   1a. Write a function all_except_option, which takes a string and a string list. Return NONE if the string is not in the
   list, else return SOME lst where lst is identical to the argument list except the string is not in it. You may assume
@@ -51,6 +52,7 @@ object HW2 extends HW2Provided {
     getSubstitutionsTailRec(list, Seq.empty)
   }
 
+
   /**
   Write a function similar_names, which takes a string list list of substitutions (as in parts (b) and (c)) and a full
   name of type {first:string,middle:string,last:string} and returns a list of full names (type {first:string,middle:string,last:string} list).
@@ -85,6 +87,7 @@ object HW2 extends HW2Provided {
     case _ => Black
   }
 
+
   /**
   2b. Write a function card_value, which takes a card and returns its value (numbered cards have their
   number as the value, aces are 11, everything else is 10). Note: One case-expression is enough.
@@ -115,6 +118,20 @@ object HW2 extends HW2Provided {
   def allSameColor(cards: Seq[Card]): Boolean = cards match {
     case head::Nil => true
     case head::neck::tail => if (cardColor(head) != cardColor(neck)) false else allSameColor(neck :: tail)
+  }
+
+
+  /**
+  2e. Write a function sum_cards, which takes a list of cards and returns the sum of their values. Use a locally
+  defined helper function that is tail recursive.
+    */
+  def sumCards(cards: Seq[Card]): Int = {
+    def sumCardsTailRec(remaining: Seq[Card], acc: Int): Int = remaining match {
+      case Nil => acc
+      case head::tail => sumCardsTailRec(tail, acc + cardValue(head))
+    }
+
+    sumCardsTailRec(cards, 0)
   }
 
 }

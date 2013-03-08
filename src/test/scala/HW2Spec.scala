@@ -55,4 +55,8 @@ class HW2Spec extends Specification {
     allSameColor(Seq((Spades, Ace), (Spades, King), (Spades, Queen))) shouldEqual true
   }
 
+  "sumCards returns sum of values of given list of cards" >> {
+    sumCards(Seq((Spades, Ace), (Diamonds, King), (Hearts, Num(3)), (Diamonds, Num(6)))) shouldEqual 30
+  }
+
 }
