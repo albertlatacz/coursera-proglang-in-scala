@@ -66,4 +66,26 @@ class HW2Spec extends Specification {
     score(Seq((Hearts, Ace), (Hearts, Num(4))), 20) shouldEqual 2
   }
 
+  "officiate " should {
+    "end the game when no more moves" >> {
+      officiate(Seq((Hearts, Ace), (Diamonds, Ace)), Seq(Draw), 20) shouldEqual 4
+    }
+
+    "end the game when no more cards to draw" >> {
+      officiate(Seq((Hearts, Ace)), Seq(Draw, Draw), 20) shouldEqual 4
+    }
+
+    "end the game when sum of cards held is greater than goal" >> {
+      officiate(Seq((Hearts, Ace), (Spades, King), (Clubs, Jack)), Seq(Draw, Draw, Draw), 20) shouldEqual 43
+    }
+
+    "discard a card if in list of cards held" >> {
+      officiate(Seq((Hearts, Ace), (Spades, Num(2))), Seq(Draw, Draw, Discard((Spades, Num(2)))), 20) shouldEqual 4
+    }
+
+    "throw 'IllegalMove' if when trying to discard card not currently held" >> {
+      officiate(Seq((Hearts, Ace), (Spades, Num(2))), Seq(Draw, Discard((Diamonds, Queen))), 20) should throwAn[IllegalMove]
+    }
+  }
+
 }

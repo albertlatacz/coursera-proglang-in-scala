@@ -169,6 +169,40 @@ object HW2 extends HW2Provided {
     if (allSameColor(cards)) preliminaryScore / 2 else preliminaryScore
   }
 
+  /**
+  2g. Write a function officiate, which “runs a game.” It takes a card list (the card-list) a move list (what the player
+  “does” at each point), and an int (the goal) and returns the score at the end of the game after processing (some or
+  all of) the moves in the move list in order. Use a locally defined recursive helper function that takes several arguments
+  that together represent the current state of the game. As described above:
+    - The game starts with the held-cards being the empty list.
+    - The game ends if there are no more moves. (The player chose to stop since the move list is empty.)
+    - If the player discards some card c, play continues (i.e., make a recursive call) with the held-cards not having c
+      and the card-list unchanged. If c is not in the held-cards, raise the IllegalMove exception.
+    - If the player draws and the card-list is empty, the game is over. Else if drawing causes the sum of the held-cards
+      to exceed the goal, the game is over. Else play continues with a larger held-cards and a smaller card-list.
+
+  Sample solution is under 20 lines.
+    */
+  def officiate(cards: Seq[Card], moves: Seq[Move], goal: Int): Int = {
+    def officiateHelper(cards: Seq[Card], moves: Seq[Move], held: Seq[Card]): Int = {
+      moves match {
+        case Nil => score(held, goal)
+        case Draw :: restOfMoves => {
+          cards match {
+            case Nil => score(held, goal)
+            case card :: restOfCards => {
+              if (sumCards(held) > goal) score(held, goal)
+              else officiateHelper(restOfCards, restOfMoves, held :+ card)
+            }
+          }
+        }
+        case Discard(card) :: restOfMoves => officiateHelper(cards, restOfMoves, removeCard(held, card, new IllegalMove))
+      }
+    }
+
+    officiateHelper(cards, moves, Seq.empty)
+  }
+
 
 }
 
@@ -205,8 +239,8 @@ class HW2Provided {
   case object Black extends Color
 
   abstract sealed class Move
-  case class Discard(card: Card)
-  case object Draw
+  case class Discard(card: Card) extends Move
+  case object Draw extends Move
 
   class IllegalMove extends Exception
 
