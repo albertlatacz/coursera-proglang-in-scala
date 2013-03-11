@@ -184,25 +184,39 @@ object HW2 extends HW2Provided {
   Sample solution is under 20 lines.
     */
   def officiate(cards: Seq[Card], moves: Seq[Move], goal: Int): Int = {
-    def officiateHelper(cards: Seq[Card], moves: Seq[Move], held: Seq[Card]): Int = {
-      moves match {
-        case Nil => score(held, goal)
-        case Draw :: restOfMoves => {
-          cards match {
-            case Nil => score(held, goal)
-            case card :: restOfCards => {
-              if (sumCards(held) > goal) score(held, goal)
-              else officiateHelper(restOfCards, restOfMoves, held :+ card)
-            }
+    def officiateHelper(cards: Seq[Card], moves: Seq[Move], held: Seq[Card]): Int = moves match {
+      case Nil => score(held, goal)
+      case Discard(card) :: restOfMoves => officiateHelper(cards, restOfMoves, removeCard(held, card, new IllegalMove))
+      case Draw :: restOfMoves => {
+        cards match {
+          case Nil => score(held, goal)
+          case card :: restOfCards => {
+            if (sumCards(held) > goal) score(held, goal)
+            else officiateHelper(restOfCards, restOfMoves, held :+ card)
           }
         }
-        case Discard(card) :: restOfMoves => officiateHelper(cards, restOfMoves, removeCard(held, card, new IllegalMove))
       }
     }
 
     officiateHelper(cards, moves, Seq.empty)
   }
 
+
+  /**
+  3a. Write score_challenge and officiate_challenge to be like their non-challenge counterparts except each ace can
+  have a value of 1 or 11 and score_challenge should always return the least (i.e., best) possible score.
+  Hint: This is easier than you might think.
+    */
+  private def replaceAces(cards: Seq[Card]): Seq[Card] = cards match {
+    case Nil=> Seq.empty
+    case (suit, rank) :: tail => (suit, if (rank == Ace) Num(1) else rank) +: replaceAces(tail)
+  }
+
+  def scoreChallenge(cards: Seq[Card], goal: Int): Int =
+    Math.min(score(replaceAces(cards), goal), score(cards, goal))
+
+  def officiateChallenge(cards: Seq[Card], moves: Seq[Move], goal: Int): Int =
+    Math.min(officiate(replaceAces(cards), moves, goal), officiate(cards, moves, goal))
 
 }
 

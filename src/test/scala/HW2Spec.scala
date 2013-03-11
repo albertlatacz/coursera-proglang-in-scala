@@ -88,4 +88,14 @@ class HW2Spec extends Specification {
     }
   }
 
+  "scoreChallenge returns the smallest score where Aces can be 1 or 11" >> {
+    scoreChallenge(Seq((Hearts, Num(4)), (Spades, Ace), (Diamonds, King)), 10) shouldEqual 35
+    scoreChallenge(Seq((Hearts, Num(4)), (Spades, Ace)), 10) shouldEqual 5
+  }
+
+  "officiateChallenge returns the smallest score where Aces can be 1 or 11" >> {
+    officiateChallenge(Seq((Hearts, Ace), (Spades, Ace), (Clubs, Ace)), Seq(Draw, Draw, Draw), 40) shouldEqual 7
+    officiateChallenge(Seq((Hearts, Ace), (Spades, Ace), (Clubs, Ace)), Seq(Draw, Draw, Draw), 20) shouldEqual 17
+  }
+
 }
