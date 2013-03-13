@@ -98,4 +98,9 @@ class HW2Spec extends Specification {
     officiateChallenge(Seq((Hearts, Ace), (Spades, Ace), (Clubs, Ace)), Seq(Draw, Draw, Draw), 20) shouldEqual 17
   }
 
+  "carefulPlayer returns correct result" >> {
+    carefulPlayer(Seq((Hearts, Ace), (Spades, Ace)), 20) shouldEqual Seq(Draw, Discard((Hearts, Ace)), Draw)
+  }
+
+
 }

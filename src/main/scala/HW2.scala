@@ -135,6 +135,7 @@ object HW2 extends HW2Provided {
   the lectures.
     */
   def allSameColor(cards: Seq[Card]): Boolean = cards match {
+    case Nil => true
     case head :: Nil => true
     case head :: neck :: tail => if (cardColor(head) != cardColor(neck)) false else allSameColor(neck :: tail)
   }
@@ -176,8 +177,8 @@ object HW2 extends HW2Provided {
   that together represent the current state of the game. As described above:
     - The game starts with the held-cards being the empty list.
     - The game ends if there are no more moves. (The player chose to stop since the move list is empty.)
-    - If the player discards some card c, play continues (i.e., make a recursive call) with the held-cards not having c
-      and the card-list unchanged. If c is not in the held-cards, raise the IllegalMove exception.
+    - If the player discards some card c, play continues (i.e., make a recursive call) with the held-cards not having c and
+      the card-list unchanged. If c is not in the held-cards, raise the IllegalMove exception.
     - If the player draws and the card-list is empty, the game is over. Else if drawing causes the sum of the held-cards
       to exceed the goal, the game is over. Else play continues with a larger held-cards and a smaller card-list.
 
@@ -203,7 +204,7 @@ object HW2 extends HW2Provided {
 
 
   /**
-  3a. Write score_challenge and officiate_challenge to be like their non-challenge counterparts except each ace can
+  3a. Challenge problem: Write score_challenge and officiate_challenge to be like their non-challenge counterparts except each ace can
   have a value of 1 or 11 and score_challenge should always return the least (i.e., best) possible score.
   Hint: This is easier than you might think.
     */
@@ -217,6 +218,32 @@ object HW2 extends HW2Provided {
 
   def officiateChallenge(cards: Seq[Card], moves: Seq[Move], goal: Int): Int =
     Math.min(officiate(replaceAces(cards), moves, goal), officiate(cards, moves, goal))
+
+  /**
+  3b. Challenge problem: Write careful_player, which takes a card-list and a goal and returns a move-list such that
+  calling officiate with the card-list, the goal, and the move-list has this behavior:
+  - The value of the held cards never exceeds the goal.
+  - A card is drawn whenever the goal is more than 10 greater than the value of the held cards.
+  - If a score of 0 is reached, there must be no more moves.
+  - If it is possible to discard one card, then draw one card to produce a score of 0, then this must be done.
+    (Note careful_player will have to look ahead to the next card, which in many card games is considered “cheating.”)
+    */
+
+  def carefulPlayer(cards: Seq[Card], goal: Int): Seq[Move] = {
+    def carefulPlayerHelper(cards: Seq[Card], held: Seq[Card], moves: Seq[Move]): Seq[Move] = {
+      if (score(held, goal) == 0) moves
+      else cards match {
+        case Nil => moves
+        case head :: tail => {
+          if (goal > 10 + sumCards(held)) carefulPlayerHelper(tail, held :+ head, moves :+ Draw)
+          else carefulPlayerHelper(cards, removeCard(held, held.head, new IllegalMove), moves :+ Discard(held.head))
+        }
+      }
+    }
+
+
+    carefulPlayerHelper(cards.tail, Seq(cards.head), Seq(Draw))
+  }
 
 }
 
