@@ -17,6 +17,16 @@ object HW3 extends HW3Provided {
     strings.foldLeft("")((res, str) =>
       if (str.size > res.size) str
       else res)
+
+  /**
+  3. Write a function longest_string2 that is exactly like longest_string1 except in the case of ties it returns the
+  string closest to the end of the list. Your solution should be almost an exact copy of longest_string1.
+    */
+  def longestString2(strings: Seq[String]): String =
+    strings.reverse.foldLeft("")((res, str) =>
+      if (str.size > res.size) str
+      else res)
+
 }
 
 /**

@@ -110,8 +110,8 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/ReportService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363193743752" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/conf/properties/offer-manager-app.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/LocationGeoCoderService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
-    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338337882" ignored="false" />
-    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338389273" ignored="false" />
+    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338692201" ignored="false" />
+    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338546861" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +208,7 @@
       <file leaf-file-name="HW3.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="34" column="6" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,7 +235,7 @@
       <file leaf-file-name="HW3Spec.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="267" selection-end="499" vertical-scroll-proportion="0.6183432">
+            <state line="16" column="17" selection-start="719" selection-end="719" vertical-scroll-proportion="0.7751479">
               <folding />
             </state>
           </provider>
@@ -310,8 +310,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/HW1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW2Spec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
       </list>
     </option>
   </component>
@@ -1064,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/HW2Spec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="3" selection-start="5423" selection-end="5423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="238" column="116" selection-start="11841" selection-end="11841" vertical-scroll-proportion="0.0">
@@ -1094,14 +1087,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+        <state line="34" column="6" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/HW2Spec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="3" selection-start="5423" selection-end="5423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="267" selection-end="499" vertical-scroll-proportion="0.6183432">
+        <state line="16" column="17" selection-start="719" selection-end="719" vertical-scroll-proportion="0.7751479">
           <folding />
         </state>
       </provider>

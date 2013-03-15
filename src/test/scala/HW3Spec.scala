@@ -12,4 +12,9 @@ class HW3Spec extends Specification {
     longestString1(Seq.empty) shouldEqual ""
   }
 
+  "longestString2 returns the longest string in the given list of strings from the right" >> {
+    longestString2(Seq("Returns", "the longest", "string from", "the", "list")) shouldEqual "string from"
+    longestString2(Seq.empty) shouldEqual ""
+  }
+
 }
