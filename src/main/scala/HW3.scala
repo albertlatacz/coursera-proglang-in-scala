@@ -6,7 +6,7 @@ object HW3 extends HW3Provided {
   the argument that start with an uppercase letter. Assume all strings have at least 1 character. Use List.filter,
   Char.isUpper, and String.sub to make a 1-2 line solution.
     */
-  def onlyCapitals(strings: Seq[String]): Seq[String] = Seq.empty
+  def onlyCapitals(strings: Seq[String]): Seq[String] = strings.filter(_.head.isUpper)
 
 }
 
