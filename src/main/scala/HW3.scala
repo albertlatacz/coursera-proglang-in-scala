@@ -8,6 +8,15 @@ object HW3 extends HW3Provided {
     */
   def onlyCapitals(strings: Seq[String]): Seq[String] = strings.filter(_.head.isUpper)
 
+  /**
+  2. Write a function longest_string1 that takes a string list and returns the longest string in the list. If the list
+  is empty, return "". In the case of a tie, return the string closest to the beginning of the list. Use foldl,
+  String.size, and no recursion (other than the implementation of foldl is recursive).
+    */
+  def longestString1(strings: Seq[String]): String =
+    strings.foldLeft("")((res, str) =>
+      if (str.size > res.size) str
+      else res)
 }
 
 /**

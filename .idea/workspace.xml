@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" name="Default" comment="added solution for hw1 problem 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/HW3.scala" afterPath="$PROJECT_DIR$/src/main/scala/HW3.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" afterPath="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
     </list>
     <ignored path="ScalaPlayground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +110,8 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/ReportService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363193743752" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/conf/properties/offer-manager-app.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/LocationGeoCoderService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
-    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363295055713" ignored="false" />
-    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363250533113" ignored="false" />
+    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338337882" ignored="false" />
+    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363338389273" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +208,7 @@
       <file leaf-file-name="HW3.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="24" column="6" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,7 +226,7 @@
       <file leaf-file-name="TraversableOnce.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableOnce.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="58" selection-start="15118" selection-end="15118" vertical-scroll-proportion="0.0">
+            <state line="148" column="17" selection-start="5600" selection-end="5604" vertical-scroll-proportion="-3.8076923">
               <folding />
             </state>
           </provider>
@@ -235,7 +235,7 @@
       <file leaf-file-name="HW3Spec.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3372781">
+            <state line="12" column="3" selection-start="267" selection-end="499" vertical-scroll-proportion="0.6183432">
               <folding />
             </state>
           </provider>
@@ -310,8 +310,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/HW1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW2Spec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
       </list>
     </option>
   </component>
@@ -1087,21 +1087,21 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="58" selection-start="15118" selection-end="15118" vertical-scroll-proportion="0.0">
+        <state line="148" column="17" selection-start="5600" selection-end="5604" vertical-scroll-proportion="-3.8076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="24" column="6" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3372781">
+        <state line="12" column="3" selection-start="267" selection-end="499" vertical-scroll-proportion="0.6183432">
           <folding />
         </state>
       </provider>
