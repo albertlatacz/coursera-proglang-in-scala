@@ -43,10 +43,10 @@ class HW3Spec extends Specification {
   }
 
   "allAnswers returns list containing all results of calling fn that return Some(value) or None if any None" >> {
-    def evenOption(value: Integer) = if (value % 2 == 0) Some(Seq(value, value)) else None
-    allAnswers(evenOption)(Seq(4, 6)) shouldEqual Some(Seq(4, 4, 6, 6))
-    allAnswers(evenOption)(Seq(4, 3)) shouldEqual None
-    allAnswers(evenOption)(Seq.empty) shouldEqual Some(Seq.empty)
+    def evenTwiceOption(value: Integer) = if (value % 2 == 0) Some(Seq(value, value)) else None
+    allAnswers(evenTwiceOption)(Seq(4, 6)) shouldEqual Some(Seq(4, 4, 6, 6))
+    allAnswers(evenTwiceOption)(Seq(4, 3)) shouldEqual None
+    allAnswers(evenTwiceOption)(Seq.empty) shouldEqual Some(Seq.empty)
   }
 
 }

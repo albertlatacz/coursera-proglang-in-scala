@@ -1,5 +1,5 @@
 
-object HW3 extends HW3Provided {
+object  HW3 extends HW3Provided {
 
   /**
   1. Write a function only_capitals that takes a string list and returns a string list that has only the strings in
