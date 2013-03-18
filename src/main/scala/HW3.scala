@@ -82,6 +82,27 @@ object HW3 extends HW3Provided {
     }
   }
 
+
+  /**
+  8. Write a function all_answers of type (’a -> ’b list option) -> ’a list -> ’b list option (notice the 2 arguments
+  are curried). The first argument should be applied to elements of the second argument. If it returns NONE for any
+  element, then the result for all_answers is NONE. Else the calls to the first argument will have produced SOME lst1,
+  SOME lst2, ... SOME lstn and the result of all_answers is SOME lst where lst is lst1, lst2, ..., lstn appended
+  together (order doesn’t matter). Hints: The sample solution is 8 lines. It uses a helper function with an accumulator
+  and uses @. Note all_answers f [] should evaluate to SOME [].
+    */
+  def allAnswers[A, B](fn: (A) => Option[Seq[B]])(items: Seq[A]): Option[Seq[B]] = {
+    def allAnswersHelper(remaining: Seq[A], acc: Option[Seq[B]]):  Option[Seq[B]]  = remaining match {
+      case Nil => acc
+      case head :: tail => fn(head) match {
+        case None => None
+        case Some(value) => allAnswersHelper(tail, acc.map(_ ++ value))
+      }
+    }
+
+    allAnswersHelper(items, Some(Seq.empty))
+  }
+
 }
 
 /**

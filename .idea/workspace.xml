@@ -110,8 +110,8 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/ReportService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363193743752" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/conf/properties/offer-manager-app.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/LocationGeoCoderService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
-    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363624009117" ignored="false" />
-    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363624585467" ignored="false" />
+    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363626345631" ignored="false" />
+    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363626288797" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,10 +196,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW3.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HW3.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="6" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0">
+            <state line="98" column="51" selection-start="4799" selection-end="4799" vertical-scroll-proportion="0.5588235">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Option.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/Option.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="248" column="20" selection-start="8832" selection-end="8832" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -232,10 +241,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW3Spec.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HW3Spec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="19" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.49408284">
+            <state line="45" column="65" selection-start="2160" selection-end="2163" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -263,15 +272,6 @@
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/immutable/List.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="395" column="28" selection-start="12709" selection-end="12709" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HW1Spec.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/HW1Spec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="52" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -310,8 +310,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/HW1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW2Spec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
       </list>
     </option>
   </component>
@@ -933,8 +933,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2215909" sideWeight="0.59480125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40519878" sideWeight="0.9951923" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2215909" sideWeight="0.5978593" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40214068" sideWeight="0.9951923" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1004,11 +1004,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/language.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="20" selection-start="4677" selection-end="4677" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/matcher/ExceptionMatchers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="6" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" />
@@ -1096,16 +1091,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/Option.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="6" selection-start="3569" selection-end="3569" vertical-scroll-proportion="0.0">
+        <state line="248" column="20" selection-start="8832" selection-end="8832" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="19" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.49408284">
+        <state line="45" column="65" selection-start="2160" selection-end="2163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="51" selection-start="4799" selection-end="4799" vertical-scroll-proportion="0.5588235">
           <folding />
         </state>
       </provider>
