@@ -27,6 +27,9 @@ class HW3Spec extends Specification {
     longestString4(Seq.empty) shouldEqual ""
   }
 
-
+  "longestCapitalized returns the longest string starting with capital letter" >> {
+    longestCapitalized(Seq("Returns", "the longest", "Capitalised", "string")) shouldEqual "Capitalised"
+    longestCapitalized(Seq.empty) shouldEqual ""
+  }
 
 }

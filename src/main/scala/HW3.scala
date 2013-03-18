@@ -41,11 +41,20 @@ object HW3 extends HW3Provided {
       if (sizeComparator(str.size, res.size)) str
       else res)
 
-  def longestString3(strings: Seq[String]): String =
-    longestStringHelper(_ > _)(strings)
+  def longestString3 = longestStringHelper(_ > _)(_)
 
-  def longestString4(strings: Seq[String]): String =
-    longestStringHelper(_ >= _)(strings)
+  def longestString4 = longestStringHelper(_ >= _)(_)
+
+
+  /**
+  5. Write a function longest_capitalized that takes a string list and returns the longest string in the list that
+  begins with an uppercase letter (or "" if there are no such strings). Use a val-binding and the ML library’s o
+  operator for composing functions. Resolve ties like in problem 2.
+    */
+  def longestCapitalized(strings: Seq[String]): String = {
+    val findLongestCapitalized =  (longestString1 _) compose (onlyCapitals _)
+    findLongestCapitalized(strings)
+  }
 }
 
 /**
