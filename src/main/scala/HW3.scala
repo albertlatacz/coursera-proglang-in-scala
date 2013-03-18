@@ -23,10 +23,29 @@ object HW3 extends HW3Provided {
   string closest to the end of the list. Your solution should be almost an exact copy of longest_string1.
     */
   def longestString2(strings: Seq[String]): String =
-    strings.reverse.foldLeft("")((res, str) =>
-      if (str.size > res.size) str
+    strings.foldLeft("")((res, str) =>
+      if (str.size >= res.size) str
       else res)
 
+
+  /**
+  4. Write functions longest_string_helper, longest_string3, and longest_string4 such that:
+  - longest_string3 has the same behavior as longest_string1 and longest_string4 has the same behavior as longest_string2.
+  - longest_string_helper has type (int * int -> bool) -> string list -> string
+    (notice the currying). This function will look a lot like longest_string1 and longest_string2 but is more general
+     because it takes a function as an argument.
+  - longest_string3 and longest_string4 are defined with val-bindings and partial applications of longest_string_helper.
+    */
+  private def longestStringHelper(sizeComparator : (Int, Int) => Boolean)(strings: Seq[String]): String =
+    strings.foldLeft("")((res, str) =>
+      if (sizeComparator(str.size, res.size)) str
+      else res)
+
+  def longestString3(strings: Seq[String]): String =
+    longestStringHelper(_ > _)(strings)
+
+  def longestString4(strings: Seq[String]): String =
+    longestStringHelper(_ >= _)(strings)
 }
 
 /**

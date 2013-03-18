@@ -17,4 +17,16 @@ class HW3Spec extends Specification {
     longestString2(Seq.empty) shouldEqual ""
   }
 
+  "longestString3 returns the longest string in the given list of strings using helper curried function" >> {
+    longestString3(Seq("Returns", "the longest", "string from", "the", "list")) shouldEqual "the longest"
+    longestString3(Seq.empty) shouldEqual ""
+  }
+
+  "longestString4 returns the longest string in the given list of strings from the right using helper curried function" >> {
+    longestString4(Seq("Returns", "the longest", "string from", "the", "list")) shouldEqual "string from"
+    longestString4(Seq.empty) shouldEqual ""
+  }
+
+
+
 }
