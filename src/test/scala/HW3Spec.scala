@@ -32,4 +32,8 @@ class HW3Spec extends Specification {
     longestCapitalized(Seq.empty) shouldEqual ""
   }
 
+  "revString reverses the string" >> {
+    revString("Some String") shouldEqual "gnirtS emoS"
+  }
+
 }

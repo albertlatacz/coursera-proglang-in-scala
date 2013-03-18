@@ -55,6 +55,14 @@ object HW3 extends HW3Provided {
     val findLongestCapitalized =  (longestString1 _) compose (onlyCapitals _)
     findLongestCapitalized(strings)
   }
+
+  /**
+  6. Write a function rev_string that takes a string and returns the string that is the same characters in reverse
+  order. Use ML’s o operator, the library function rev for reversing lists, and two library functions in the String
+  module. (Browse the module documentation to find the most useful functions.)
+    */
+  def revString(str: String): String = str.reverse
+
 }
 
 /**
