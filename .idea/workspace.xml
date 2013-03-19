@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/target/streams/$global/ivy-configuration/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="$PROJECT_DIR$/target/streams/$global/update/$global/out" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361273770855" ignored="false" />
     <file path="/fragment.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363195280666" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363294635385" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363645553591" ignored="false" />
     <file path="/fragment.js2" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361274170737" ignored="false" />
     <file path="/HW2Suite.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1361290030028" ignored="false" />
     <file path="$PROJECT_DIR$/my-web-project/.idea/scala_compiler.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1362085459601" ignored="false" />
@@ -110,8 +110,12 @@
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/ReportService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363193743752" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/conf/properties/offer-manager-app.properties" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
     <file path="$PROJECT_DIR$/../PMGlobal/Priority-Moments/offerManager/grails-app/services/uk/co/o2/pm/manager/service/LocationGeoCoderService.groovy" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363192430875" ignored="false" />
-    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363626345631" ignored="false" />
-    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363627928665" ignored="false" />
+    <file path="/HW3.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363681608527" ignored="false" />
+    <file path="/HW3Spec.scala" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363683911086" ignored="false" />
+    <file path="$PROJECT_DIR$/../Accrem/src/accrem/views/common.clj" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363645414195" ignored="false" />
+    <file path="$PROJECT_DIR$/../Repler/src/REPL.java" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363683617197" ignored="false" />
+    <file path="$PROJECT_DIR$/../Repler/.idea/workspace.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363683931561" ignored="false" />
+    <file path="$PROJECT_DIR$/../Repler/.idea/misc.xml" changelist="7b91b4d7-3532-4126-af4c-cbe9bdbb0297" time="1363683621100" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +203,16 @@
       <file leaf-file-name="HW3.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="8" selection-start="9" selection-end="9" vertical-scroll-proportion="0.055882353">
+            <state line="134" column="6" selection-start="6601" selection-end="6601" vertical-scroll-proportion="0.89411765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqLike.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="24" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,15 +236,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraversableLike.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableLike.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="476" column="8" selection-start="17192" selection-end="17192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TraversableOnce.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/TraversableOnce.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -244,7 +248,7 @@
       <file leaf-file-name="HW3Spec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="11" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.0">
+            <state line="65" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -310,8 +314,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/HW1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HW2Spec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/HW3.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/HW3Spec.scala" />
       </list>
     </option>
   </component>
@@ -509,32 +513,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="HW3.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseraProglangInScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseraProglangInScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW2.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1004,11 +982,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.13-sources.jar!/org/specs2/matcher/ExceptionMatchers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="6" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/runtime/StringAdd.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="6" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" />
@@ -1098,16 +1071,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.0-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="24" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/HW3Spec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.0">
+        <state line="65" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/HW3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="9" selection-end="9" vertical-scroll-proportion="0.055882353">
+        <state line="134" column="6" selection-start="6601" selection-end="6601" vertical-scroll-proportion="0.89411765">
           <folding />
         </state>
       </provider>

@@ -49,4 +49,25 @@ class HW3Spec extends Specification {
     allAnswers(evenTwiceOption)(Seq.empty) shouldEqual Some(Seq.empty)
   }
 
+  "countWildcards returns count of wildcards within the pattern" >> {
+    countWildcards(TupleP(Seq(Wildcard, Variable("v1"), ConstructorP("c1", Wildcard), UnitP))) shouldEqual 2
+    countWildcards(TupleP(Seq(UnitP, Variable("v1"), ConstructorP("c1", ConsP(42)), UnitP))) shouldEqual 0
+  }
+
+  "countWildAndVariableLengths returns count of wildcards and length of variable values within the pattern" >> {
+    countWildAndVariableLengths(TupleP(Seq(Wildcard, Variable("var"), ConstructorP("const", Wildcard), UnitP))) shouldEqual 5
+    countWildAndVariableLengths(TupleP(Seq(UnitP, ConstructorP("c1", ConsP(42)), UnitP))) shouldEqual 0
+  }
+
+  "countSomeVar returns count of all variables within the pattern with value equal to given string" >> {
+    countSomeVar("var", TupleP(Seq(Wildcard, Variable("var"), ConstructorP("const", Variable("v2")), Variable("var")))) shouldEqual 2
+    countSomeVar("var", TupleP(Seq(Wildcard, Variable("v1"), ConstructorP("const", Variable("v2")), Variable("v2")))) shouldEqual 0
+  }
+
+  "checkPat returns true if all the variables in the given pattern have distinct values" >> {
+    checkPat(TupleP(Seq(Wildcard, Variable("var"), ConstructorP("const", Variable("v2")), Variable("v3")))) shouldEqual true
+    checkPat(TupleP(Seq(Wildcard, Variable("var"), ConstructorP("const", Variable("var")), Variable("v3")))) shouldEqual false
+  }
+
+
 }
